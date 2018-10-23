@@ -1,0 +1,20 @@
+  .container input #myinput{
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 90%;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+  }
+
+  .container form div {
+    position: relative;
+  }
+
+  .container form div label{
+    position: absolute;
+    top: 30px;
+    pointer-events: none;
+    left: 0;
+  }
